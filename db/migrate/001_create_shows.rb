@@ -5,9 +5,7 @@ class CreateShows < ActiveRecord::Migration[4.2]
       t.string :name
       t.string :network
       t.string :day
-      t.string :image_url
-      t.timestamp :created_at
-      t.timestamp :updated_at
+      t.integer :rating
     end
   end
 
